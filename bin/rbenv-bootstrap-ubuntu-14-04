@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Update sources:
+sudo apt-get update
+
+sudo apt-get -y zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev \
+		libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev
