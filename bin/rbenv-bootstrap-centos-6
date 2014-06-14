@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Update sources:
-sudo apt-get -y update
+sudo yum -y update
 
 sudo yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel \
 make bzip2 autoconf automake libtool bison iconv-devel git-core
