@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Update sources:
+sudo dnf update -y
+
+sudo dnf install -y curl make bzip2 readline gcc-c++ zlib-devel zlib git git-core autoconf automake bison libffi-devel libtool libyaml-devel patch readline-devel sqlite-devel openssl-devel
